@@ -4,6 +4,7 @@
   "description": "This application would help users to create a goal and track them",
   "main": "index.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nandhakumar-palanisamy",

@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 const GOALSCHEMA = mongoose.Schema({
   title: String,
   description: String,

@@ -1,11 +1,11 @@
 import express from "express";
-import { login, signup } from "../controllers/user-controller";
+import { login, signup } from "../controllers/user-controller.js";
 import {
   createGoal,
   goalList,
   goalUpdate,
   goalDelete,
-} from "../controllers/goal-controller";
+} from "../controllers/goal-controller.js";
 
 const router = express.Router();
 router.get("/", (req, res) => {

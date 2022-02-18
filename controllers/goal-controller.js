@@ -1,4 +1,4 @@
-import { Goal } from "../models/goal-model";
+import { Goal } from "../models/goal-model.js";
 
 export const createGoal = async (req, res) => {
   const data = req.body;
